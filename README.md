@@ -2,9 +2,9 @@
 ## Purpose
 Generate synthetic images of skin illnesses to augment datasets for training skin illness detectors. The dataset is acquired from Italian hospitals, capturing images "in the wild" in an amateur fashion. Our focus is on esantema maculo-papuloso, and crops are extracted from larger original images, each of dimension 256x256, accompanied by a binary mask to isolate ill skin areas.
 
-## Dataset Analysis
-The dataset, obtained from Italian hospitals, contains images captured in an amateur fashion. It includes 9 types of skin illnesses, but our focus is on esantema maculo-papuloso. Crops are extracted, each of size 256x256, with accompanying binary masks for ill skin areas.
-![Dataset Crops](./other/real_imgs.png)
+## Dataset
+The dataset (**not included**) obtained from Italian hospitals, contains images captured in an amateur fashion. It includes 9 types of skin illnesses, but our focus is on esantema maculo-papuloso. Crops are extracted, each of size 256x256, with accompanying binary masks for ill skin areas.
+<img src="./other/real_imgs.png" alt="Dataset Crops" height="200">
 
 ## Models
 ### Previous Models
@@ -25,7 +25,7 @@ Baselines: DCGAN and CVAE are built as simpler models, avoiding the need for mas
 Iterative Inpainting with GLIDE: GLIDE is a [model from OpenAI](https://github.com/openai/glide-text2im) which runs on an original source image, performing iterative masking and inpainting. Each step of this model really involves 100 diffusion steps.
 
 ## Our results
-![Glide results inpainting steps animation](./other/glide_output_animation.gif)
+<img src="./other/glide_output_animation.gif" alt="Glide results inpainting steps animation" height="300">
 
 ### Advantages and limitations
 - GLIDE doesn't need any pretraining and can be run in platforms like Colab
