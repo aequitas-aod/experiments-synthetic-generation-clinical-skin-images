@@ -4,7 +4,8 @@ Generate synthetic images of skin illnesses to augment datasets for training ski
 
 ## Dataset
 The dataset (**not included**) obtained from Italian hospitals, contains images captured in an amateur fashion. It includes 9 types of skin illnesses, but our focus is on esantema maculo-papuloso. Crops are extracted, each of size 256x256, with accompanying binary masks for ill skin areas.
-<img src="./other/real_imgs.png" alt="Dataset Crops" height="200">
+
+<img src="./other/real_imgs.png" alt="Dataset Crops" height="250">
 
 ## Models
 ### Previous Models
