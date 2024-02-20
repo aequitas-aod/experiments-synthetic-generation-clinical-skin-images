@@ -1,5 +1,5 @@
 # Skin Disease Image Generation
-Alessandro D'Amico, Riccardo Murgia 
+Alessandro D'Amico, Riccardo Murgia, Mazeyar Moeini Feizabadi
 
 credits for previous work: Diego Biagini
 ## Purpose
