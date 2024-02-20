@@ -1,4 +1,6 @@
 # Skin Disease Image Generation
+Riccardo Murgia 
+
 ## Purpose
 Generate synthetic images of skin illnesses to augment datasets for training skin illness detectors. The dataset is acquired from Italian hospitals, capturing images "in the wild" in an amateur fashion. Our focus is on esantema maculo-papuloso, and crops are extracted from larger original images, each of dimension 256x256, accompanied by a binary mask to isolate ill skin areas.
 
